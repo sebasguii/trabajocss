@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="trabajocss.html">
+    <link rel="stylesheet" href="trabajocss.css">
+</head>
+<body class="form">
+    <!-- formulario de afiliacion -->
+    <div class="registro">
+        <form action="">
+            <label for="select"><strong>Seleccione su tipo de documento</strong></label>
+            <br><br>
+            <select name="Documento" id="Documento">
+                <option value="CC">CC</option>
+                <option value="TI">Targeta de identidad</option>
+                <option value="CE">cedula de extrangeria</option>
+                <option value="PS">Pasaporte</option>
+             </select>
+             <br>
+             <br>
+            <label for="ID"> <strong>Digite su  documento</strong></label>
+            <br><br>
+            <input type="text" placeholder="Numero de documento" required>
+            <br><br>
+            <label for="Name"><strong>Digite su nombre</strong></label>
+            <br><br>
+            <input type="text" placeholder="Nombre" required>
+            <br><br>
+            <label for="ID"><strong>Digite sus apellidos</strong></label>
+            <br><br>
+            <input type="text" placeholder="Apellidos" required>
+            <br><br>
+            <label for="ID"><strong>Digite sus correo</strong></label>
+            <br><br>
+            <input type="email" placeholder="Correo electronico" required>
+            <br><br>
+            <label for="password"><strong>Digite una contraseña</strong></label>
+            <br><br>
+            <input type="password" placeholder="Contraseña" required>
+            
+            <br><br>
+            <label for="com_pasword"><strong>Confirme su contraseña</strong></label>
+            <br><br>
+            <input type="password" placeholder="Confirme su contraseña" required>
+            <br><br>
+            <label for="ID"><strong>Digite su numero telefonico</strong></label>
+            <br><br>
+            <input type="text" placeholder="Numero telefonico" required>
+            <br><br>
+            <label for="ID"><strong>Seleccione su sexo: </strong></label>
+            <br><br>
+            <Label>M</Label>
+            <input type="checkbox" >
+            <label >F</label>
+            <input type="checkbox">
+            <label >OTRO</label>
+            <input type="checkbox">
+            <br><br>
+            <label for=""><strong>Seleccione el tipo de cuenta de su interes: </strong></label>
+            <br><br>
+            <select name="t_cuenta" id="t_c">
+                <option value="ahorros">Ahorros</option>
+                <option value="credito">Credito</option>
+                <option value="CDT">CDT</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Completar registro">
+        </form>
+        
+    </div>
+    <div class="volver">
+        <button ><a href="trabajocss.html">Volver a a pagina principal</a></button>
+    </div>
+    
+</div>
+</body>
+</html>
